@@ -3,7 +3,7 @@ html {
     margin: 0;
 }
 
-div {
+.main {
     height: 100%;
     width: 100%;
     display: flex;
@@ -18,5 +18,21 @@ div {
         font-weight: 900;
         font-style: italic;
         font-size: 10rem;
+    }
+    h4 {
+        color: white;
+        font-family: Noto Sans, sans-serif;
+        text-align: center;
+        position: inherit;
+        top: 60%;
+    }
+}
+
+.container {
+    position: absolute;
+    h4 {
+        color: white;
+        font-family: Noto Sans, sans-serif;
+        text-align: center;
     }
 }
