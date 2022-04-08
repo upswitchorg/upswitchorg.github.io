@@ -1,6 +1,54 @@
 html {
-  background-color: #00030D;
+  background-color: #021c26;
   margin: 0;
+}
+
+@-webkit-keyframes color-change {
+  0% {
+    color: white;
+  }
+  20% {
+    color: #3df2e0;
+  }
+  40% {
+    color: #0fb2f2;
+  }
+  60% {
+    color: #085abc;
+  }
+  80% {
+    color: #0fb2f2;
+  }
+  100% {
+    color: white;
+  }
+}
+
+@keyframes color-change {
+  0% {
+    color: white;
+  }
+  20% {
+    color: #3df2e0;
+  }
+  40% {
+    color: #0fb2f2;
+  }
+  60% {
+    color: #085abc;
+  }
+  80% {
+    color: #0fb2f2;
+  }
+  100% {
+    color: white;
+  }
+}
+
+nav img.logo {
+  padding: 2em;
+  width: 7em;
+  border-radius: 50%;
 }
 
 .main {
@@ -26,6 +74,8 @@ html {
   font-weight: 900;
   font-style: italic;
   font-size: 10rem;
+  -webkit-animation: color-change 10s infinite;
+          animation: color-change 10s infinite;
 }
 
 .main h4 {
