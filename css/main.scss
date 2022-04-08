@@ -46,7 +46,7 @@ nav {
         font-family: Noto Sans, sans-serif;
         font-weight: 900;
         font-style: italic;
-        font-size: 10rem;
+        font-size: 12rem;
         animation: color-change 10s infinite;
     }
     h4 {
@@ -64,5 +64,15 @@ nav {
         color: white;
         font-family: Noto Sans, sans-serif;
         text-align: center;
+    }
+}
+
+.footer {
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    img {
+        width: 2em;
+        padding: 0.5em;
     }
 }
