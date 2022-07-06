@@ -77,14 +77,14 @@ nav img.logo {
   font-family: Noto Sans, sans-serif;
   font-weight: 900;
   font-style: italic;
-  font-size: 5rem;
+  font-size: 7rem;
   -webkit-animation: color-change 10s infinite;
           animation: color-change 10s infinite;
 }
 
 .main h4 {
   color: white;
-  font-size: 0.6rem;
+  font-size: 1rem;
   font-family: Noto Sans, sans-serif;
   text-align: center;
   position: inherit;
